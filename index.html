@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prachi Chawla | Content Writer & Digital Marketer</title>
+<meta name="description" content="Portfolio of Prachi Chawla: SEO content, copywriting and FinTech marketing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f9f8f5;--surface:#fff;--ink:#0f1a2e;--muted:#5a6376;--line:#e5e3dd;--accent:#25447d;--accent-soft:#e8edf6;--c1:#25447d;--c2:#a67c3d;--c3:#2f7a6e;--c4:#6b7a99;--c5:#5a4d8c;--c6:#3a7ca5;--hl:#ece3d0;--panel:#0f1a2e;--panel-ink:#fff;color-scheme:light}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html{background:#f9f8f5;scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;counter-reset:sec;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased;background-image:radial-gradient(color-mix(in srgb,var(--line) 70%,transparent) 1px,transparent 1px);background-size:32px 32px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.12;margin:0;letter-spacing:-.015em}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+section{padding:92px 0;counter-increment:sec}
+h2{font-size:clamp(2rem,4.4vw,2.9rem);margin-bottom:14px}
+h2::before{content:"0" counter(sec);display:block;font:700 .8rem/1 Manrope,sans-serif;letter-spacing:.16em;color:var(--c2);margin-bottom:14px}
+h2::after{content:"";display:block;width:56px;height:5px;border-radius:5px;background:linear-gradient(90deg,var(--c1),var(--c2));margin-top:16px}
+.contact h2::before{display:none}
+.lead{color:var(--muted);max-width:60ch;margin:18px 0 44px}
+.lead:empty{display:none}
+
+nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:66px}
+.logo{font-family:Fraunces,serif;font-weight:600;text-decoration:none;font-size:1.2rem;display:flex;align-items:center;gap:10px}
+.logo::before{content:"PC";display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--ink);color:var(--bg);font:700 .8rem Manrope,sans-serif}
+nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0;font-size:.93rem;font-weight:600}
+nav ul a{text-decoration:none;color:var(--muted);padding:8px 14px;border-radius:999px;transition:background .2s,color .2s}
+nav ul a:hover{background:var(--accent-soft);color:var(--accent)}
+
+.hero{padding:104px 0 96px;position:relative;overflow:hidden}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.16;z-index:-1}
+.hero::before{width:380px;height:380px;background:var(--c1);top:-120px;right:-80px}
+.hero::after{width:300px;height:300px;background:var(--c2);bottom:-120px;right:22%;opacity:.12}
+.hero .role{display:inline-block;font-weight:700;font-size:.9rem;color:var(--accent);background:var(--accent-soft);padding:8px 18px;border-radius:999px;margin:0 0 26px}
+.hero h1{font-size:clamp(3.4rem,11vw,7.5rem);line-height:.98;margin-bottom:30px}
+.hero h1{background:linear-gradient(transparent 68%,var(--hl) 68%,var(--hl) 92%,transparent 92%);display:inline-block}
+.hero p.intro{font-size:1.28rem;max-width:46ch;color:var(--muted);margin:0 0 38px}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-block;padding:14px 28px;border-radius:10px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);transition:transform .2s,background .2s,color .2s}
+.btn.primary{background:var(--ink);color:var(--bg)}
+.btn.ghost{background:transparent}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:56px}
+.about p{margin:0 0 18px}
+.focus{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.focus li{padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--c1);border-radius:12px;font-weight:600;transition:transform .2s}
+.focus li:nth-child(2){border-left-color:var(--c2)}.focus li:nth-child(3){border-left-color:var(--c3)}.focus li:nth-child(4){border-left-color:var(--c4)}.focus li:nth-child(5){border-left-color:var(--c5)}.focus li:nth-child(6){border-left-color:var(--c6)}
+.focus li:hover{transform:translateX(5px)}
+
+.cat{margin-top:64px;--c:var(--c1)}
+.cat:first-of-type{margin-top:0}
+.cat:nth-child(2){--c:var(--c2)}.cat:nth-child(3){--c:var(--c3)}.cat:nth-child(4){--c:var(--c4)}.cat:nth-child(5){--c:var(--c5)}.cat:nth-child(6){--c:var(--c6)}
+.cat h3{font-size:1.6rem;margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.cat h3::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--c)}
+.cat h3:has(+p){margin-bottom:4px}
+.cat>p{color:var(--muted);margin:0 0 20px;font-size:.98rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:11px;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px -14px rgba(15,26,46,.3)}
+.tag{align-self:flex-start;font-size:.74rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);background:color-mix(in srgb,var(--c) 14%,transparent);padding:4px 11px;border-radius:999px}
+.card h4{font:600 1.2rem/1.3 Fraunces,serif;margin:0}
+.card p{margin:0;color:var(--muted);font-size:.95rem;flex:1}
+.read{font-weight:700;text-decoration:none;margin-top:6px;display:inline-flex;gap:8px;align-items:center}
+.read::after{content:"→";transition:transform .2s;color:var(--c)}
+.card:hover .read::after{transform:translateX(5px)}
+.ph{font-size:.74rem;font-weight:700;color:#7a4a00;background:#f6e7c8;padding:3px 8px;border-radius:6px;align-self:flex-start}
+
+#jobs{border-left:2px solid var(--line);margin-left:6px}
+.job{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:0 0 46px 34px;position:relative}
+#jobs .job::before{content:"";position:absolute;left:-9px;top:6px;width:16px;height:16px;border-radius:50%;background:var(--c2);border:3px solid var(--bg)}
+#jobs .job:nth-child(2)::before{background:var(--c1)}#jobs .job:nth-child(3)::before{background:var(--c3)}
+.job:last-child{padding-bottom:0}
+.job .when{color:var(--muted);font-size:.93rem;font-weight:600}
+.job h3{font-size:1.4rem;margin-bottom:2px}
+.job .org{color:var(--accent);font-weight:700;margin:0 0 12px}
+.job ul{margin:0;padding-left:1.1rem;color:var(--muted)}
+.job li{margin-bottom:7px}
+.job li::marker{color:var(--c2)}
+#education .job{padding:0;grid-template-columns:200px 1fr}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 38px}
+.chips span{padding:9px 18px;border:1px solid var(--line);background:var(--surface);border-radius:999px;font-weight:600;font-size:.93rem;transition:transform .2s,background .2s}
+.chips span:hover{transform:translateY(-3px);border-color:var(--accent);color:var(--accent)}
+.chips.tools span{background:var(--accent-soft);border-color:transparent}
+h3.sub{font-size:1.25rem;margin-bottom:16px}
+
+.contact .wrap{background:var(--panel);color:var(--panel-ink);border-radius:24px;padding:72px 28px;text-align:center;position:relative;overflow:hidden}
+.contact .wrap::before{content:"";position:absolute;width:280px;height:280px;border-radius:50%;background:var(--c2);filter:blur(80px);opacity:.18;top:-100px;left:-60px}
+.contact{padding:60px 0 92px}
+.contact h2{font-size:clamp(2.3rem,6vw,4rem);position:relative}
+.contact h2::after{margin:18px auto 0}
+.contact .lead{margin:0 auto 34px}
+.contact .btns{justify-content:center;position:relative}
+.contact .btn{border-color:#fff;background:#fff;color:#0f1a2e}
+.contact .btn:hover{background:var(--c2);border-color:var(--c2);color:#fff}
+footer{padding:28px 0 40px;text-align:center;color:var(--muted);font-size:.9rem}
+
+
+body{overflow-x:hidden}
+.heroGrid{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(3rem,7.6vw,5.9rem)}
+.doc{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px 24px 30px;box-shadow:0 24px 50px -30px rgba(15,26,46,.35);position:relative;display:grid;gap:12px;max-width:340px;justify-self:end;width:100%}
+.doc .dots{display:flex;gap:6px;margin-bottom:8px}
+.doc .dots b{width:10px;height:10px;border-radius:50%;background:var(--line)}
+.doc .dots b:first-child{background:var(--c2)}
+.ln{height:10px;border-radius:6px;background:var(--line)}
+.ln.t{height:18px;width:62%;background:var(--ink);margin-bottom:6px}
+.w90{width:90%}.w75{width:75%}.w85{width:85%}.w60{width:60%}.w40{width:40%}.w30{width:30%}
+.ln.hl{background:var(--hl);height:14px}
+.ln.cur{position:relative;background:var(--line)}
+.ln.cur::after{content:"";position:absolute;right:-8px;top:-4px;width:3px;height:18px;background:var(--c2)}
+.fl{position:absolute;background:var(--surface);color:var(--accent);border:1px solid var(--line);font-size:.76rem;font-weight:700;padding:6px 14px;border-radius:999px;box-shadow:0 8px 20px -10px rgba(15,26,46,.3)}
+.f1{top:-14px;right:20px}.f2{bottom:40px;left:-22px}.f3{bottom:-14px;right:24px}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+.card.rv.in:hover{transform:translateY(-4px)}
+@media (max-width:760px){
+ .heroGrid{grid-template-columns:1fr}.doc{max-width:320px;margin:10px 0 0 6px}
+ nav ul{display:none}
+ section{padding:64px 0}
+ .hero{padding:64px 0 60px}
+ .about,.job,#education .job{grid-template-columns:1fr;gap:18px}
+ .job{padding-left:24px}
+ .contact .wrap{border-radius:24px;padding:56px 18px}
+ .btn{padding:13px 20px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+ <a class="logo" href="#top">Prachi Chawla</a>
+ <ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#work">Work</a></li>
+  <li><a href="#experience">Experience</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#contact">Contact</a></li>
+ </ul>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap heroGrid"><div>
+ <p class="role">Content Writer | SEO Content | Copywriting | FinTech Marketing</p>
+ <h1>Prachi Chawla</h1>
+ <p class="intro">I create clear, engaging, and audience-focused content that simplifies complex ideas, builds connections, and supports business goals.</p>
+ <div class="btns">
+  <a class="btn primary" href="#work">View My Work</a>
+  <a class="btn ghost" href="#contact">Contact Me</a>
+ </div>
+ </div>
+ <div class="doc" aria-hidden="true">
+  <div class="dots"><b></b><b></b><b></b></div>
+  <div class="ln t"></div>
+  <div class="ln w90"></div><div class="ln w75"></div><div class="ln w85"></div>
+  <div class="ln w40 hl"></div><div class="ln w60"></div><div class="ln w30 cur"></div>
+  <span class="fl f1">SEO</span><span class="fl f2">FinTech</span><span class="fl f3">Copy</span>
+ </div>
+</div></header>
+
+
+<section id="about"><div class="wrap about">
+ <div>
+  <h2>About me</h2>
+  <p>With a BBA in Marketing from Delhi Technological University (DTU), I'm a content writer and digital marketer who likes turning dense, technical topics into writing people actually want to read. My strongest ground is FinTech, where I've written about markets, IPOs and personal finance for audiences who are new to them.</p>
+  <p>Beyond long-form writing, I work across SEO blogs, website and landing page copy, social media content and marketing copywriting. My CRM and digital marketing experience means I think about what happens after the words are published: who reads them, on which channel, and what they do next.</p>
+ </div>
+ <ul class="focus">
+  <li>FinTech &amp; financial content writing</li>
+  <li>SEO content writing</li>
+  <li>Website and blog content</li>
+  <li>Social media content</li>
+  <li>Marketing copywriting</li>
+  <li>CRM &amp; digital marketing</li>
+ </ul>
+</div></section>
+
+<section id="work"><div class="wrap">
+ <h2>My Work</h2>
+ <p class="lead">A collection of work I’ve created, including content writing, copywriting, campaign creatives, video scripts, and more.</p>
+ <div id="portfolio"></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+ <h2>Work experience</h2>
+ <p class="lead"></p>
+  <div id="jobs"></div>
+</div></section>
+
+<section id="education"><div class="wrap">
+ <h2>Education</h2>
+ <div class="job" style="border-top:0;padding:0">
+  <div class="when">Delhi, India</div>
+  <div><h3>Bachelor of Business Administration (BBA), Marketing</h3><p class="org" style="margin:0">Delhi Technological University (DTU)</p></div>
+ </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+ <h2>Skills &amp; tools</h2>
+ <p class="lead">What I write, and what I use to plan, publish and measure it.</p>
+ <h3 class="sub">Skills</h3>
+ <div class="chips" id="skillChips"></div>
+ <h3 class="sub">Tools</h3>
+ <div class="chips tools" id="toolChips"></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+ <h2>Let's work together</h2>
+ <div class="btns">
+  <a class="btn primary" href="mailto:prachichawla022@gmail.com">prachichawla022@gmail.com</a>
+  <a class="btn primary" href="https://linkedin.com/in/prachi-chawla-408492256/" target="_blank" rel="noopener">LinkedIn profile</a>
+ </div>
+</div></section>
+
+
+<script>
+/* =====================================================================
+   HOW TO EDIT THIS PORTFOLIO  (everything lives in this one block)
+
+   1. CHANGE A LINK: in PORTFOLIO below, edit the "url:" value of
+      any sample. To add a link later, use url: PLACEHOLDER and an
+      orange "Placeholder link" label shows until you replace it.
+
+   2. ADD A NEW SAMPLE: copy one { title, desc, url } line inside the
+      right category's "items" list and paste it below, then edit it.
+
+   3. EDIT EXPERIENCE: change role, org, dates and points in EXPERIENCE.
+   ===================================================================== */
+
+const PLACEHOLDER = "https://ADD-YOUR-LINK-HERE.com";
+
+const PORTFOLIO = [
+ { name: "Reels Scripts",
+   items: [
+    { title: "Reel Script 01", desc: "Short-form reel script for social media.", url: "https://docs.google.com/document/d/1PDyqD61-kHmzzuwwxukEeWYvUSWqLt-7drY-qIltrCU/edit?usp=sharing" },
+    { title: "Reel Script 02", desc: "Short-form reel script for social media.", url: "https://docs.google.com/document/d/1Zfbmqx7150dO1yNOwURnvSTyiGvT_PLkOH-8n6x_JFs/edit?usp=sharing" },
+    { title: "Reel Script 03", desc: "Short-form reel script for social media.", url: "https://docs.google.com/document/d/11TRAdVNJj3axxjN3-iE-wgkRXCD8t0gFdsOApGeC8TQ/edit?usp=sharing" },
+    { title: "Reel Script 04", desc: "Short-form reel script for social media.", url: "https://docs.google.com/document/d/19mnkwc4qwy_Tdnr6KlO0L4uH26W8eD1kqTo5QSDyPbc/edit?usp=sharing" }
+   ]},
+ { name: "Knowledge Base",
+   note: "Documentation written to help customers find answers.",
+   items: [
+    { title: "Customer support / educational knowledge base", desc: "Help and educational documentation in Google Docs.", url: "https://docs.google.com/document/d/135mmZUvHLp-HaPTSRFCjNCr6kwI72c94W-gVMVsBx5g/edit?usp=sharing" }
+   ]},
+ { name: "Financial Guides",
+   note: "Educational finance content for new investors.",
+   items: [
+    { title: "IPO educational guide", desc: "A guide that explains IPOs in plain language.", url: "https://docs.google.com/document/d/1zYF6lvfFcwWWyq_sRpc-3Ge2N_VDHyHvafn_ql3TNdk/edit?usp=sharing" }
+   ]},
+ { name: "Email Copywriting",
+   note: "NSE IPO and Jio IPO campaigns with creatives.",
+   items: [
+    { title: "NSE IPO email campaign", desc: "Campaign copy and creatives for the NSE IPO.", url: "https://docs.google.com/document/d/1hh3RwdUoTWJjFfMnozZbdAHdcCr-s--FpVhWvP_aK5I/edit?usp=sharing" },
+    { title: "Jio IPO email campaign", desc: "Campaign copy and creatives for the Jio IPO.", url: "https://docs.google.com/document/d/1Jc2z_i5pP0HVTFKE1TzpaX_F23ZkW6syLrkL61s6vRQ/edit?usp=sharing" }
+   ]},
+ { name: "YouTube Video Scripts",
+   note: "Long-form video scripts and their descriptions.",
+   items: [
+    { title: "YouTube sample 01", desc: "Script for a YouTube video.", url: "https://docs.google.com/document/d/1_lCFBsn5TtOBvXPDNiOXNAcwsaRepEf89BQ1V_aWomE/edit?usp=sharing" },
+    { title: "YouTube sample 02", desc: "Script for a YouTube video.", url: "https://docs.google.com/document/d/18vDchrtTbiZv9ZjwsFjlAAArr-v2StK9rcJtaYGMZZc/edit?usp=sharing" },
+    { title: "YouTube video descriptions", desc: "Descriptions written for the YouTube videos.", url: "https://docs.google.com/document/d/1FX_jWVK72PaktgJf9s3dk7yrrn3IY4t2jV0D7QH6OdU/edit?usp=sharing" }
+   ]},
+ { name: "WhatsApp & Voicebot Content",
+   note: "Conversational content for messaging and voice channels.",
+   items: [
+    { title: "Product announcement: Finzoom", desc: "Product announcement content for Finzoom.", url: "https://docs.google.com/document/d/1nXQxwbRdK4QkfjmaPLtP4rdoCSkQuvxG5ddw03IkU78/edit?usp=sharing" },
+    { title: "Internal process KB for voicebot", desc: "Internal knowledge base that guides the voicebot.", url: "https://docs.google.com/document/d/1hoUmR1yNd6NqtalwFAzLv39P-Z_JJRiA7ORewPpa0mE/edit?usp=sharing" },
+    { title: "WhatsApp voicebot content", desc: "Conversation content for the WhatsApp voicebot.", url: "https://docs.google.com/document/d/1P2sKF2c7kgg7_1eGrdoOaEiDa0BqVpXT_boB-8SdLcI/edit?usp=sharing" }
+   ]}
+];
+
+const EXPERIENCE = [
+ { role: "Copywriter & Retention Marketing", org: "Findoc Investmart", dates: "06/2026 – 10/2026", place: "Gurugram",
+   points: ["Developed financial and marketing communication for Jio and NSE IPO campaigns across email, WhatsApp and onsite channels, contributing to 63,159 successful email deliveries.",
+            "Created IPO-related customer communication for campaigns associated with approximately ₹4 crore in Jio IPO bids and ₹6 crore in NSE IPO bids.",
+            "Developed content for onsite IPO campaigns across customer touchpoints, generating approximately 50K+ impressions.",
+            "Created HTML email templates from scratch for daily market updates, supporting structured communication across an approximately 20,000-customer base.",
+            "Worked on financial content and customer communication for IPO, KYC/Re-KYC and product-related journeys using WebEngage.",
+            "Developed and implemented UTM tracking to support campaign attribution and content performance analysis.",
+            "Monitored content and campaign performance through email deliveries, open rates, click-through rates, impressions and clicks.",
+            "Collaborated with marketing, creative and technical teams to develop, review and deploy customer-facing communication."] },
+ { role: "Content Writing Intern", org: "Findoc Investmart", dates: "12/2025 – 06/2026", place: "Gurugram",
+   points: ["Developed a structured knowledge base for the CX voicebot, contributing to an improvement in transaction/deflection performance from 15% to 45%.",
+            "Created and structured conversational content to automate customer experience journeys and support approximately 2,000 monthly customer interactions through the voicebot.",
+            "Researched and developed financial content covering Margin Trading Facility (MTF), Exchange-Traded Funds (ETFs), Commodities and Futures & Options (F&O).",
+            "Simplified complex financial concepts into clear, informative and customer-friendly content for digital platforms.",
+            "Developed promotional copy and customer communication for WhatsApp, push notifications, brochures and digital marketing campaigns.",
+            "Organised reusable content frameworks and communication scripts to support content automation and reduce repetitive manual content creation."] },
+ { role: "Digital Marketing Intern", org: "PHAILAAV", dates: "06/2024 – 08/2024", place: "Delhi",
+   points: ["Managed and validated Google Business Profile listings to improve business information accuracy.",
+            "Prepared advertising campaign reports and maintained structured campaign documentation.",
+            "Contributed to campaign activities associated with a reported 30% improvement in engagement.",
+            "Coordinated with internal teams to ensure timely updates and reporting workflows."] }
+];
+
+const SKILLS = ["Content Writing","SEO Writing","Copywriting","Financial Content","Blog Writing","Website Content","Social Media Strategy","Email Marketing","CRM","Marketing Automation"];
+const TOOLS  = ["WebEngage","Canva","Google Sheets","Excel","Claude","Notion AI","NotebookLM"];
+
+/* ---------------- rendering (no need to edit below) ---------------- */
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+document.getElementById("portfolio").innerHTML = PORTFOLIO.map(c => `
+ <div class="cat">
+  <h3>${esc(c.name)}</h3>${c.note ? `<p>${esc(c.note)}</p>` : ""}
+  <div class="cards">${c.items.map(i => `
+   <article class="card">
+    <span class="tag">${esc(c.name)}</span>
+    <h4>${esc(i.title)}</h4>
+    <p>${esc(i.desc)}</p>
+    ${i.url === PLACEHOLDER ? '<span class="ph">Placeholder link: replace in PORTFOLIO</span>' : ''}
+    <a class="read" href="${esc(i.url)}" target="_blank" rel="noopener" aria-label="Read content: ${esc(i.title)}">Read Content</a>
+   </article>`).join("")}
+  </div>
+ </div>`).join("");
+
+document.getElementById("jobs").innerHTML = EXPERIENCE.map(j => `
+ <div class="job">
+  <div class="when">${esc(j.dates)}<br>${esc(j.place)}</div>
+  <div><h3>${esc(j.role)}</h3><p class="org">${esc(j.org)}</p>
+  <ul>${j.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+ </div>`).join("");
+
+document.getElementById("skillChips").innerHTML = SKILLS.map(s => `<span>${esc(s)}</span>`).join("");
+document.getElementById("toolChips").innerHTML  = TOOLS.map(s => `<span>${esc(s)}</span>`).join("");
+const rv = document.querySelectorAll(".card,.job,.focus li,.chips span");
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: .12 });
+  rv.forEach(el => { el.classList.add("rv"); io.observe(el); });
+}
+</script>
+</body>
+</html>
